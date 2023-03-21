@@ -69,6 +69,11 @@ html, body{
 	padding: 1rem 0;
 	font-size: 1rem;
 }
+
+section li{
+	margin-left: 5rem;
+}
+
 section p{
 	line-height: 2rem;
 }
@@ -79,6 +84,10 @@ section p{
 }
 .dados *{
 	line-height: 1.2rem;
+}
+
+.informacoes{
+	text-align: justify;
 }
 .margem-inferior .informacoes {
 	margin-top: 2rem;
@@ -112,7 +121,7 @@ section p{
 	box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.2);
 }
 .container-img img{
-	height: 1.5rem;
+	height: 1.8rem;
 }
 #container-img-endereco{
 	background-color: var(--cor-verde);
@@ -126,6 +135,13 @@ section p{
 #container-img-email{
 	background-color: var(--cor-vermelho);
 }
+#container-img-email img{
+	height: 2.1rem;
+}
+#container-img-telefone img{
+	height: 2.3rem;
+}
+
 #link-endereco{
 	background-color: var(--cor-verde-claro);
 }
